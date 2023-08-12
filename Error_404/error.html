@@ -1,56 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>404 Error - Page Not Found</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #f4f4f4;
-                margin: 0;
-                padding: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                text-align: center;
-            }
-    
-            .container {
-                background-color: #ffffff;
-                border-radius: 10px;
-                padding: 30px;
-                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-                max-width: 400px;
-            }
-    
-            .error-code {
-                font-size: 60px;
-                font-weight: bold;
-                margin-bottom: 10px;
-                color: #e74c3c;
-            }
-    
-            .error-message {
-                font-size: 20px;
-                margin-bottom: 20px;
-                color: #333333;
-            }
-    
-            .home-link {
-                text-decoration: none;
-                color: #3498db;
-                font-weight: bold;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="error-code">404 </div>
-            <div class="error-message">Oops! The page you are looking for cannot be found. 😞</div>
-            <div class="error-message">It's on us, we are working hard to resolve it! 🛠</div>
-            <p>Return to <a href="./Bio/index.html">homepage</a></p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Website Name</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .error-container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .search-container {
+            margin-top: 1.5rem;
+        }
+        .search-input {
+            padding: 0.5rem;
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-button {
+            margin-top: 0.5rem;
+            background-color: #007bff;
+            color: #ffffffb6;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .nav-links {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-link {
+            margin-bottom: 0.5rem;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .return-home {
+            margin-top: 2rem;
+        }
+        .return-button {
+            background-color: #089c08;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        .contact-info {
+            margin-top: 2rem;
+        }
+        .contact-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .illustration {
+            margin-top: 2rem;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="illustration">
+            <!-- Customizable illustration or graphic here -->
+            <img src="Error404.jpg" alt="404 Illustration">
         </div>
-    </body>
-    </html>
-
-    
+        <h1 class="error-title">Oops! Page Not Found 😢</h1>
+        <div class="error-message">It's on us, we are working hard to resolve it! 🛠</div>
+        
+        <div class="search-container">
+            <input class="search-input" type="text" placeholder="Search...">
+            <button class="search-button" onclick="https://google.com" href="https://www.google.com">Search</button>
+        </div>
+        
+        <div class="nav-links">
+            <a class="nav-link" href="../Bio/index.html">Home</a>
+            <a class="nav-link" href="../Bio/index.html">About Us</a>
+            <a class="nav-link" href="https://memes.com">Relax with memes</a>
+            
+        </div>
+        
+        <div class="return-home">
+            <a class="return-button" href="../Bio/index.html">Return to Homepage</a>
+        </div>
+        
+        <div class="contact-info">
+            <p>If you need further assistance, please <a class="contact-link" href="https://toluwalope9@gmail.com">contact us</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
